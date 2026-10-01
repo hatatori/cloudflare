@@ -1,21 +1,5 @@
 # Cloudflare
 
-## Startar
-```
-npm init -y
-```
-
-## Para testar localmente:
-```
-npm install -D wrangler
-npx wrangler dev
-```
-
-## E para publicar:
-```
-npx wrangler deploy
-```
-
 ## Estrutura 
 ```
 meu-servidor/
@@ -43,3 +27,20 @@ export default {
   "compatibility_date": "2026-10-01"
 }
 ```
+
+## Startar
+```
+npm init -y
+```
+
+## Para testar localmente:
+```
+npm install -D wrangler
+npx wrangler dev
+```
+
+## E para publicar:
+```
+npx wrangler deploy
+```
+
